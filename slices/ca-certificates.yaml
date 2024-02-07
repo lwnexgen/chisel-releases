@@ -2,10 +2,10 @@ package: ca-certificates
 
 slices:
   bins:
-    essentials:
-      - bash_bins
+    essential:
+      - dash_bins
       - sed_bins
-      - find_bins
+      - findutils_bins
       - debianutils_bins
       - openssl_bins
     contents:
