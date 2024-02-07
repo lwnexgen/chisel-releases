@@ -1,6 +1,16 @@
 package: ca-certificates
 
 slices:
+  bins:
+    essentials:
+      - bash_bins
+      - sed_bins
+      - find_bins
+      - debianutils_bins
+      - openssl_bins
+    contents:
+      /usr/sbin/update-ca-certificates:
+
   data:
     contents:
       /etc/ssl/certs/ca-certificates.crt: {text: FIXME, mutable: true}
