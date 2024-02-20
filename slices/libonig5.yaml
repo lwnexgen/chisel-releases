@@ -1,0 +1,7 @@
+package: libonig5
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libonig.so.5.2.0:
+      /usr/lib/*-linux-*/libonig.so.5:

@@ -1,0 +1,7 @@
+package: libjq1
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libjq.so.1.0.4:
+      /usr/lib/*-linux-*/libjq.so.1:
