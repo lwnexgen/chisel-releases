@@ -1,0 +1,12 @@
+package: fonts-noto-cjk
+
+slices:
+  fonts:
+    contents:
+      /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc:
+      /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc:
+      /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc:
+      /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc:
+  config:
+    contents:
+      /etc/fonts/conf.d/70-fonts-noto-cjk.conf:
