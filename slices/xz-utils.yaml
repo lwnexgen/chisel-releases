@@ -1,0 +1,19 @@
+package: xz-utils
+
+slices:
+  bins:
+    essential:
+      - libc6_libs
+      - liblzma5_libs
+    contents:
+      /usr/bin/lzmainfo:
+      /usr/bin/xz:
+      /usr/bin/xzdiff:
+      /usr/bin/xzgrep:
+      /usr/bin/xzless:
+      /usr/bin/xzmore:
+      /usr/bin/unxz:
+      /usr/bin/xzcat:
+      /usr/bin/xzcmp:
+      /usr/bin/xzegrep:
+      /usr/bin/xzfgrep:
