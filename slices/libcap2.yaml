@@ -1,0 +1,7 @@
+package: libcap2
+
+slices:
+  libs:
+    contents:
+      /lib/*-linux-*/libcap.so.2.44:
+      /lib/*-linux-*/libcap.so.2:
