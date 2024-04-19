@@ -1,0 +1,7 @@
+package: libgpg-error0
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libgpg-error.so.0:
+      /usr/lib/*-linux-*/libgpg-error.so.0.34.0:

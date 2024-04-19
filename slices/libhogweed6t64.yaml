@@ -1,0 +1,7 @@
+package: libhogweed6t64
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libhogweed.so.6:
+      /usr/lib/*-linux-*/libhogweed.so.6.8:

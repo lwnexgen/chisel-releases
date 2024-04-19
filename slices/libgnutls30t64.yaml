@@ -1,0 +1,7 @@
+package: libgnutls30t64
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libgnutls.so.30:
+      /usr/lib/*-linux-*/libgnutls.so.30.37.1:

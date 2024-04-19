@@ -1,0 +1,7 @@
+package: libpsl5t64
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libpsl.so.5:
+      /usr/lib/*-linux-*/libpsl.so.5.3.4:

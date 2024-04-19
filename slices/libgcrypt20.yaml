@@ -1,0 +1,7 @@
+package: libgcrypt20
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libgcrypt.so.20:
+      /usr/lib/*-linux-*/libgcrypt.so.20.4.3:

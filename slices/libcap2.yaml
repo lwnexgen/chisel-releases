@@ -1,0 +1,9 @@
+package: libcap2
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libcap.so.2.66:
+      /usr/lib/*-linux-*/libpsx.so.2.66:
+      /usr/lib/*-linux-*/libcap.so.2:
+      /usr/lib/*-linux-*/libpsx.so.2:

@@ -1,0 +1,7 @@
+package: libnettle8t64
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libnettle.so.8:
+      /usr/lib/*-linux-*/libnettle.so.8.8:

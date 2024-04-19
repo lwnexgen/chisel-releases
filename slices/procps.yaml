@@ -1,0 +1,37 @@
+package: procps
+
+slices:
+  bins:
+    essential:
+      - libc6_libs
+      - libcap2_libs
+      - libgpg-error0_libs
+      - liblz4-1_libs
+      - liblzma5_libs
+      - libncursesw6_libs
+      - libproc2-0_libs
+      - libsystemd0_libs
+      - libtinfo6_libs
+      - libzstd1_libs
+    contents:
+      /usr/bin/free:
+      /usr/bin/kill:
+      /usr/bin/pgrep:
+      /usr/bin/pidwait:
+      /usr/bin/pkill:
+      /usr/bin/pmap:
+      /usr/bin/ps:
+      /usr/bin/pwdx:
+      /usr/bin/skill:
+      /usr/bin/slabtop:
+      /usr/bin/snice:
+      /usr/bin/tload:
+      /usr/bin/top:
+      /usr/bin/uptime:
+      /usr/bin/vmstat:
+      /usr/bin/w:
+      /usr/bin/watch:
+      /usr/sbin/sysctl:
+  libs:
+    contents:
+      /usr/lib/sysctl.d/99-protect-links.conf:

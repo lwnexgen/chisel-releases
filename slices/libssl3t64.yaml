@@ -1,13 +1,11 @@
-package: libssl3
+package: libssl3t64
 
 slices:
   libs:
-    essential:
-      - libc6_libs
     contents:
       /usr/lib/*-linux-*/engines-3/afalg.so:
       /usr/lib/*-linux-*/engines-3/loader_attic.so:
       /usr/lib/*-linux-*/engines-3/padlock.so:
-      /usr/lib/*-linux-*/libcrypto.so.*:
-      /usr/lib/*-linux-*/libssl.so.*:
+      /usr/lib/*-linux-*/libcrypto.so.3:
+      /usr/lib/*-linux-*/libssl.so.3:
       /usr/lib/*-linux-*/ossl-modules/legacy.so:

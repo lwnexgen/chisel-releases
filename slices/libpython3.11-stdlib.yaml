@@ -106,7 +106,7 @@ slices:
   # https://docs.python.org/3.11/library/persistence.html
   data-persistence:
     essential:
-      - libdb5.3_libs
+      - libdb5.3t64_libs
       - libpython3.11-stdlib_core
       - libsqlite3-0_libs
     contents:
@@ -358,7 +358,7 @@ slices:
   text:
     essential:
       - libpython3.11-stdlib_core
-      - libreadline8_libs
+      - libreadline8t64_libs
       - libtinfo6_libs
     contents:
       /usr/lib/python3.11/difflib.py:
@@ -373,7 +373,7 @@ slices:
       - libnsl2_libs
       - libpython3.11-stdlib_core
       - libpython3.11-stdlib_frameworks
-      - libtirpc3_libs
+      - libtirpc3t64_libs
     contents:
       /usr/lib/python3.11/crypt.py:
       /usr/lib/python3.11/lib-dynload/_crypt.cpython-311-*-linux-*.so:

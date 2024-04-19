@@ -1,0 +1,16 @@
+package: tar
+
+slices:
+  bins:
+    essential:
+      - libacl1_libs
+      - libc6_libs
+      - libpcre2-8-0_libs
+      - libselinux1_libs
+    contents:
+      /usr/bin/tar:
+      /usr/sbin/rmt-tar:
+      /usr/sbin/tarcat:
+  libs:
+    contents:
+      /usr/lib/mime/packages/tar:

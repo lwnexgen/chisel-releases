@@ -1,0 +1,7 @@
+package: liblz4-1
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/liblz4.so.1:
+      /usr/lib/*-linux-*/liblz4.so.1.9.4:

@@ -1,0 +1,7 @@
+package: libcurl4t64
+
+slices:
+  libs:
+    contents:
+      /usr/lib/*-linux-*/libcurl.so.4:
+      /usr/lib/*-linux-*/libcurl.so.4.8.0:
